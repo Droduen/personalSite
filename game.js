@@ -76,7 +76,7 @@ function gemCounter(){
 function playMusic(mp3, tf){
     let music = new Audio(mp3);
     
-    music.volume=0.005;
+    music.volume=0.01;
     music.play();
     music.loop = tf;
 }
