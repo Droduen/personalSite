@@ -2,7 +2,7 @@
 function start(){
     playMusic("mp3s/button.mp3", false);
     const audio = new Audio("mp3s/background.mp3");
-    audio.volume = 0.009;
+    audio.volume = 0.02;
     audio.loop = true;
     audio.play()
     startTimer()
