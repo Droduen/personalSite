@@ -1,0 +1,151 @@
+
+
+.timer p{
+    display:inline-block;
+    font-family:impact;
+    font-size:larger;
+    color:white;
+}
+.timer{
+    text-align:center;
+}
+
+.screen{
+    margin:auto;
+    background-color:black;
+    height:600px;
+    width:600px;
+    position:relative;
+    background-image:url("./images/dungeon.gif");
+    background-size:cover;
+}
+
+.deathScreen{
+    width:100%;
+    height:100%;
+    background-color:black;
+    position: absolute;
+    z-index: 100;
+    left:0%;
+    top:0%;
+    display: none;
+}
+.winScreen{
+    width:100%;
+    height:100%;
+    background-color:black;
+    position: absolute;
+    z-index: 100;
+    left:0%;
+    top:0%;
+    display: none;
+}
+
+.retry{
+    display: block;
+    margin: auto;
+    background-color:blue;
+    height:40px;
+    width:200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+.retry:hover{
+    cursor:pointer;
+}
+
+.won{
+    text-align: center;
+    display: block;
+
+    color:blue;
+}
+
+.lost{
+    position:absolute;
+    display: block;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:red;
+}
+
+.start{
+    position:absolute;
+    left:50%;
+    top:90%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    width:200px;
+    height:50px;
+    font-size:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.start:hover{
+    cursor: pointer;
+}
+
+.start:active{
+    background-color: blue;
+}
+
+body{
+   background-color:black;
+}
+
+.fire{
+    height:100px;
+    position: absolute;
+    left:40%;
+    top:50%;
+    transform: translate(-40%,-50%);
+}
+
+.water{
+    height:100px;
+    position: absolute;
+    left:60%;
+    top:50%;
+    transform: translate(-60%,-50%);
+}
+
+h1.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 40px;
+    
+    
+  }
+  
+  h1.title span:nth-of-type(1) {
+    background: linear-gradient(to right, red, black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+  
+  h1.title span:nth-of-type(2) {
+    background: linear-gradient(to right, black, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+  
+.startOver{
+   height:40px;
+   position:absolute;
+   right:2%;
+   display: none;
+   top:2%;
+}
+
+.startOver:hover{
+   cursor:pointer;
+ }
+  
